@@ -2,13 +2,15 @@
 
 Feature Scaling | Example code and own notes while taking the course "Intro to Machine Learning" on Udacity.
 
-- It is a method for rescaling features like height and weight.
-- Scale should be represented between 0 to 1.
+## Definition
+It is a method for rescaling features like height and weight.
 
 ![formula](resources/formula.png)
 
-Assume that old weights are like: `[115, 140, 175]`
-- `X'` (for 140): new (rescaled) feature
+## Example
+Assume that the old weights are like this `[115, 140, 175]`.
+
+`X'` (for 140): new (rescaled) feature
 
 Right side of the equation consists of info taken from old feature(s):
 
@@ -19,6 +21,10 @@ Right side of the equation consists of info taken from old feature(s):
 |`Xmax`|175|
 
 And the scale result would be: `0.41`
+
+Scale should be represented between 0 to 1 as we see above.
+
+![scale](resources/scale.png)
 
 ## Important highlights
 
